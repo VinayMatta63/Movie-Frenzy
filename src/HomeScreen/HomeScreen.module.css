@@ -1,0 +1,12 @@
+.tmdb {
+  max-height: 100px;
+  object-fit: contain;
+  margin-bottom: 20px;
+}
+.src {
+  color: white;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: larger;
+  margin-top: 20px;
+}

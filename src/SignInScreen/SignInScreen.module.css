@@ -1,0 +1,64 @@
+.signIn {
+  max-width: 300px;
+  padding: 30px;
+  margin: auto;
+  background-color: #433520d2;
+}
+.loaderGif {
+  position: absolute;
+  margin-left: -7%;
+  margin-right: auto;
+  height: 200px;
+  width: 200px;
+}
+.signIn > form {
+  display: grid;
+  flex-direction: column;
+}
+.signIn > form > input {
+  outline-width: 0;
+  height: 40px;
+  margin-bottom: 14px;
+  border-radius: 5px;
+  border: none;
+  padding: 5px 15px;
+}
+.signIn > form > button {
+  padding: 16px 20px;
+  color: #fff;
+  border-radius: 5px;
+  background-color: #00917c;
+  outline-width: 0;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+  font-weight: 600;
+}
+.signIn > form > h1 {
+  text-align: left;
+  margin-bottom: 25px;
+}
+
+.signIn > form > h4 {
+  text-align: left;
+  margin-top: 30px;
+}
+.gray {
+  color: gray;
+  margin-right: 10px;
+}
+.link:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.signIn > form > button:hover {
+  background-color: #077766;
+}
+
+@media (max-width: 767px) {
+  .loaderGif {
+    margin-left: -25%;
+  }
+}
